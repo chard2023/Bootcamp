@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <title>ISCP Employee Registration Form</title>
+</head>
+
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" style="width:200px" alt="iscp" /><br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2>Basic Information</h2>
+    <form>
+        <label>First name: </label><br />
+        <input type="text" placeholder="ex. Richard" /><br />
+        <label>Last name: </label><br />
+        <input type="text" placeholder="ex. Mejias" /><br />
+        <label>Place of birth: </label><br />
+        <input type="text" placeholder="ex. Inabanga, Bohol" /><br />
+        <label>Birthdate: </label><br />
+        <input type="date"><br />
+        <label>Civil status</label><br />
+        <select name="dropbox">
+            <option selected disabled>Select One</option>
+            <option value="">single</option>
+            <option value="">married</option>
+            <option value="">widowed</option>
+            <option value="">separated</option>
+        </select><br />
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male"> Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female"> Female</label>
+        <input type="radio" name="gender" id="Other" value="Other">
+        <label for="Other"> Other</label><br />
+        <label>Mother's maiden name: </label><br />
+        <input type="text" placeholder="ex. Virgilia Balatero Vistal" /><br />
+        <label>Father's name: </label><br />
+        <input type="text" placeholder="ex. Ricardo Lofranco Mejias" /><br />
+    </form>
+    <h2>Contact information</h2>
+    <form>
+        <label>Email address: </label><br />
+        <input type="email" placeholder="ex. richard.vistal012@gmail.com" /><br />
+        <label>Contact number (mobile): </label><br />
+        <input type="text" placeholder="ex. 09196394910" /><br />
+        <label>Contact number (telephone): </label><br />
+        <input type="text" placeholder="ex. (032) 4251274" /><br />
+    </form>
+    <h2>Address</h2>
+    <form>
+        <label>Street number: </label><br />
+        <input type="text" placeholder="ex. 602" /><br />
+        <label>Street name: </label><br />
+        <input type="text" placeholder="ex. Marina Street" /><br />
+        <label>Barangay: </label><br />
+        <input type="text" placeholder="ex. Jagobiao" /><br />
+        <label>City/Town: </label><br />
+        <input type="text" placeholder="ex. Mandaue City" /><br />
+        <label>Province: </label><br />
+        <input type="text" placeholder="ex. Cebu" /><br />
+        <label>Full address: </label><br />
+        <input type="text" placeholder="ex. Purok Mahogany Jagobiao, Mandaue City" /><br />
+    </form>
+    <h2>Government information</h2>
+    <form>
+        <label>SSS ID: </label><br />
+        <input type="text" placeholder="12-digit number" /><br />
+        <label>Pag-Ibig ID: </label><br />
+        <input type="text" placeholder="12-digit number" /><br />
+        <label>PhilHealth ID: </label><br />
+        <input type="text" placeholder="12-digit number" /><br />
+        <label>Upload 2x2 picture: </label>
+        <input type="file" name="fileupload" accept="image/*" /><br />
+        <label>Upload picture of government ID: </label>
+        <input type="file" name="fileupload" accept="image/*" /><br />
+    </form>
+    <h2>Account information</h2>
+    <form>
+        <label>Username: </label><br />
+        <input type="text" placeholder="ex. chard" /><br />
+        <label>Password: </label><br />
+        <input type="password" placeholder="at least 1 uppercase, at least 1 number"><br />
+        <label>Confirm password: </label><br />
+        <input type="password" placeholder="re-enter your password"><br />
+        <label>Upload profile image: </label>   
+        <input type="file" name="fileupload" accept="image/*" />
+    </form>
+    <h2>Have you experienced any of the following in the last 30 days?</h2>
+    <form>
+        <input type="radio" name="experiance" id="Coughing " value="Coughing ">
+        <label for="Coughing "> Coughing </label>
+        <input type="radio" name="experiance" id="Fever " value="Fever ">
+        <label for="Fever "> Fever </label>
+        <input type="radio" name="experiance" id="Headache " value="Headache ">
+        <label for="Headache "> Headache </label>
+        <input type="radio" name="experiance" id="Commoncold " value="Commoncold ">
+        <label for="Commoncold "> Common cold </label>
+        <input type="radio" name="experiance" id="Bodyache " value="Bodyache ">
+        <label for="Bodyache "> Body ache </label>
+        <input type="radio" name="experiance" id="Sorethroat " value="Sorethroat ">
+        <label for="Sorethroat "> Sore throat </label>
+        <input type="radio" name="experiance" id="Tiredness " value="Tiredness ">
+        <label for="Tiredness "> Tiredness </label>
+        <input type="radio" name="experiance" id="Lossofsmell " value="Lossofsmell ">
+        <label for="Lossofsmell "> Loss of smell </label>
+    </form>
+    <h2>Give a short description about yourself.</h2>
+    <form>
+        <textarea placeholder="ex. Tall, Dark and Handsome" style="width:400px"></textarea><br />
+    </form>
+</body>
+
+</html>
